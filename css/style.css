@@ -1,0 +1,355 @@
+/* &display=swap&subset=cyrillic-ext (вставить в плагин) для удаленного подключения*/
+/*
+font-weight:
+Устанавливает насыщенность шрифта.
+100 - thin
+300 - lite
+400 - normal
+500 - medium
+600 - semibold
+700 - bold
+900 - black
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700&display=swap&subset=cyrillic-ext");
+
+
+
+@font-face {
+  font-family: 'HelveticaNeue LT 55 Roman';
+  src: url(../fonts/HelveticaNeueLT-Roman.woff2) format('woff2'),
+      url(../fonts/HelveticaNeueLT-Roman.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue LT 55 Roman';
+  src: url(../fonts/HelveticaNeueLT-Roman.woff2) format('woff2'),
+      url(../fonts/HelveticaNeueLT-Roman.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html {
+  font-size: 16px; /* по умолчанию */
+}
+body {
+  font-family: "Poppins"; 
+  line-height: 1;
+  
+  
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+  background-color: #f5f5f5;
+  
+}
+
+.one{
+  padding: 280px 0px 312px 0px;
+  background: url(../img/img1.png)0 0 / cover no-repeat;
+  margin: 0px 0px 100px 0px;
+}
+.conteiner{
+  max-width: 1020px;
+  margin: 0px auto;
+}
+.text{
+  font-size: 56px;
+  font-weight: 900;
+  color: #fff;
+  max-width: 625px;
+  line-height: 85%;
+  margin: 0px 0px 47px 0px;
+}
+
+.ssilka{
+  font-size: 12px;
+  line-height: 170%;
+  background: url(../img/line2.png) 172px 0px / 45px 48px no-repeat , url(../img/line1.png) 0 0 / cover no-repeat;
+  padding: 12px 50px 12px 14px;
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+
+.dwa{
+  padding: 112px 0px 213px 0px;
+  background: url(../img/back2.png) 0 0 / cover no-repeat;
+  box-sizing: border-box;
+  
+}
+.conteiner2{
+  margin: 0px auto;
+  max-width: 1020px;
+}
+
+.our{ 
+  background: url(../img/icon.png) 1px 50% / 20px no-repeat;
+  padding:0px 0px 0px 30px ;
+  margin: -120px 0px 32px 0px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 171%;
+  letter-spacing: 2.5px;
+color: #D5D5D5;
+
+  
+}
+.Nemo{
+  color: #FFF;
+  font-size: 36px;
+  font-weight: 900;
+  max-width: 500px;
+line-height: 100%;
+margin: 0px 0px 79px 0px;
+max-width: 490px;
+}
+
+
+.cont_1{
+background: url(../img/cont_1.png) 2px 50% / 63px no-repeat;
+display: inline-block;
+max-width: 237px;
+padding: 0px 0px 0px 90px;
+}
+
+.os{
+  color: #C40B0B;
+  font-size: 36px;
+  font-weight: 900;
+  margin: 0px 0px 3px 0px;
+  line-height: 100%;
+}
+.Oil{
+  color: #F5F5F5;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+max-width: 149px;
+
+}
+
+.cont_2{
+  background: url(../img/cont_2.png)  15px 0 / 52px no-repeat;
+  display: inline-block;
+  max-width: 237px;
+  vertical-align: top;
+  padding: 0px 0px 0px 90px;
+}
+
+.k{
+  color: #C40B0B;
+  font-size: 36px;
+  font-weight: 900;
+  margin: 0px 0px 3px 0px;
+  line-height: 100%;
+}
+.tr{
+  color: #F5F5F5;
+  font-size: 16px;
+  line-height: 128%;
+  letter-spacing: 0.15px;
+max-width: 149px;
+}
+
+.cont_3{
+  background: url(../img/cont_3.png) 1px 50% / 61px no-repeat ;
+  display: inline-block;
+  max-width: 237px;
+  vertical-align: top;
+  padding: 0px 0px 0px 90px;
+}
+
+.ka{color: #C40B0B;
+  font-size: 36px;
+  font-weight: 900;
+  margin: 0px 0px 3px 0px;
+  line-height: 100%;
+
+}
+.am{
+  color: #F5F5F5;
+  font-size: 16px;
+  line-height: 128%;
+  letter-spacing: 0.15px;
+max-width: 149px;
+}
+
+.cont_4{
+background: url(../img/cont_4.png)1px 50% / 61px no-repeat;
+display: inline-block;
+  max-width: 237px;
+  vertical-align: top;
+  padding: 0px 0px 0px 90px;
+}
+
+.qq{color: #C40B0B;
+  font-size: 36px;
+  font-weight: 900;
+  margin: 0px 0px 3px 0px;
+  line-height: 100%;
+}
+
+.er{
+  color: #F5F5F5;
+  font-size: 16px;
+  line-height: 128%;
+  letter-spacing: 0.15px;
+max-width: 149px;
+
+}
+
+.tel{
+  padding: 60px;
+}
+.contel{
+  max-width: 1020px;
+    margin: 0 auto;
+}
+
+.info{
+}
+
+.pikes{
+  background: url(../img/1.png)0 0 / 15px no-repeat; 
+  min-height: 30px;
+  margin: 0px 0px 16px 0px;
+    padding: 0px 0px 0px 25px;
+    font-size: 14px;
+    line-height: 122%;
+    letter-spacing: 0.15px;
+    color: #4B4B4B;
+}
+
+.telefon{
+  background: url(../img/2.png)0 0 / 15px no-repeat;
+  min-height: 30px;
+  margin: 0px 0px 16px 0px;
+    padding: 0px 0px 0px 25px;
+    font-size: 14px;
+    line-height: 122%;
+    letter-spacing: 0.15px;
+    color: #4B4B4B;
+}
+
+.company{
+background: url(../img/3.png)0 0 / 15px no-repeat;
+min-height: 30px;
+  margin: 0px 0px 17px 0px;
+    padding: 0px 0px 0px 25px;
+    font-size: 14px;
+    line-height: 122%;
+    letter-spacing: 0.15px;
+    color: #4B4B4B;
+    
+
+}
+
+
+.mon{
+  background: url(../img/4.png)0 0 / 15px no-repeat;
+  min-height: 30px;
+    padding: 0px 0px 0px 25px;
+    font-size: 14px;
+    line-height: 122%;
+    letter-spacing: 0.15px;
+    color: #4B4B4B;
+}
+
+.Image3{
+  text-align: right;
+  margin: -190px 0px 0px 0px;
+  background-position: top right;
+  
+}
+
+
+.siski{
+  padding: 100px 0px;
+
+}
+.siskicont{
+  max-width: 1020px;
+  margin: 0px auto;
+}
+
+.qq1{
+background: url(../img/pool_24px.png) 186px / 24px no-repeat;
+font-size: 25px;
+padding-top: 4px;
+margin-bottom: 15px;
+color: #C40B0B;
+}
+
+.qqq{
+  background: url(../img/pool_24px.png) 186px / 24px no-repeat;
+  font-size: 25px;
+  padding-top: 4px;
+  margin-bottom: 15px;
+  color: #C40B0B;
+}
+
+.qqqq{
+  background: url(../img/pool_24px.png) 186px / 24px no-repeat;
+  font-size: 25px;
+  padding-top: 4px;
+  margin-bottom: 15px;
+  color: #C40B0B;
+}
+
+.qqqqq{
+  background: url(../img/pool_24px.png) 186px / 24px no-repeat;
+  font-size: 25px;
+  padding-top: 4px;
+  margin-bottom: 15px;
+  color: #C40B0B;
+}
+
+.qqqqqq{
+  background: url(../img/pool_24px.png) 186px / 24px no-repeat;
+  font-size: 25px;
+  padding-top: 4px;
+  margin-bottom: 15px;
+  color: #C40B0B;
+
+}
